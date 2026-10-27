@@ -70,6 +70,9 @@ The pinned reproduction environment uses SciPy 1.13.1. Compare objectives and
 constraint residuals, not bitwise-identical alternative optimal allocations.
 Work files are written under `work`. Full-year validation is not included.
 
+Load-profile sensitivity runs and their reference outputs are in
+`load_profile_sensitivity/`; see its README for checks and optional reruns.
+
 ## Data and version
 
 The figure Feathers contain the manuscript plotting values. English labels replace
