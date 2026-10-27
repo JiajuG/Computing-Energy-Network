@@ -1,0 +1,14 @@
+{
+  "version": "2026.10.27",
+  "source_result_sha256": "2d6ed055b14567bd6cdbc112c35a1cdcb32c5430eafabf2f0f7f8c4771b59d70",
+  "rf_version": "frozen_20261019_v3",
+  "data_sha256": {
+    "data/bivariate_mismatch_inputs_corrected.feather": "6af28cc6e74e7f098afef77b39515dad078a81a3d34b1b4f032b65c50dc438d7",
+    "data/cases.json": "61c0be2acc918049ab1cfbe87ae27845713e0ee52d593a8775998e6f447c696d",
+    "data/current_results_legacy_plot_schema.feather": "d3a6e53e3554ae229bb9f5b9489fa69bfbbd6b07eb45f742de5720cb16593006",
+    "data/nature_story_atlas.feather": "ac1cf5ee65668502874cfeea272f68d1eacc475bec17ac6ac2ab62f48cca6586",
+    "data/reference_summary.csv": "be7885b195a4a05e4dc37ab79d2533f546d91687ab4327139c004c166c3e39ba",
+    "data/rf_data.feather": "7c5019aff034bbb7c91ba7d28c104dd5231141aaf3ff9d7d3f5916a7064f1d8b",
+    "data/timeseries.npz": "10081fb27698339d19c96549816cea74a9c22acb51d4d9ba9677bbaea88e24ee"
+  }
+}
