@@ -1,0 +1,2071 @@
+{
+  "inputs": {
+    "c01": {
+      "flexible_shift_share": 0.0,
+      "green_access_multiplier": 3.0,
+      "we_percentile": 50,
+      "it_demand_anchor_we_percentile": 50,
+      "access_share": 0.060981111411868294
+    },
+    "c02": {
+      "flexible_shift_share": 0.2,
+      "green_access_multiplier": 3.0,
+      "we_percentile": 50,
+      "it_demand_anchor_we_percentile": 50,
+      "access_share": 0.060981111411868294
+    },
+    "c03": {
+      "flexible_shift_share": 0.1,
+      "green_access_multiplier": 3.0,
+      "we_percentile": 50,
+      "it_demand_anchor_we_percentile": 50,
+      "access_share": 0.060981111411868294
+    },
+    "c04": {
+      "flexible_shift_share": 0.3,
+      "green_access_multiplier": 3.0,
+      "we_percentile": 50,
+      "it_demand_anchor_we_percentile": 50,
+      "access_share": 0.060981111411868294
+    },
+    "c05": {
+      "flexible_shift_share": 0.4,
+      "green_access_multiplier": 3.0,
+      "we_percentile": 50,
+      "it_demand_anchor_we_percentile": 50,
+      "access_share": 0.060981111411868294
+    },
+    "c06": {
+      "flexible_shift_share": 0.2,
+      "green_access_multiplier": 4.0,
+      "we_percentile": 50,
+      "it_demand_anchor_we_percentile": 50,
+      "access_share": 0.08130814854915773
+    },
+    "c07": {
+      "flexible_shift_share": 0.2,
+      "green_access_multiplier": 5.0,
+      "we_percentile": 50,
+      "it_demand_anchor_we_percentile": 50,
+      "access_share": 0.10163518568644715
+    },
+    "c08": {
+      "flexible_shift_share": 0.2,
+      "green_access_multiplier": 3.0,
+      "we_percentile": 30,
+      "it_demand_anchor_we_percentile": 50,
+      "access_share": 0.060981111411868294
+    },
+    "c09": {
+      "flexible_shift_share": 0.2,
+      "green_access_multiplier": 3.0,
+      "we_percentile": 10,
+      "it_demand_anchor_we_percentile": 50,
+      "access_share": 0.060981111411868294
+    },
+    "k1_static": {
+      "flexible_shift_share": 0.0,
+      "green_access_multiplier": 1.0,
+      "we_percentile": 50,
+      "it_demand_anchor_we_percentile": 50,
+      "access_share": 0.020327037137289432
+    },
+    "k1_temporal": {
+      "flexible_shift_share": 0.2,
+      "green_access_multiplier": 1.0,
+      "we_percentile": 50,
+      "it_demand_anchor_we_percentile": 50,
+      "access_share": 0.020327037137289432
+    },
+    "k2_static": {
+      "flexible_shift_share": 0.0,
+      "green_access_multiplier": 2.0,
+      "we_percentile": 50,
+      "it_demand_anchor_we_percentile": 50,
+      "access_share": 0.040654074274578865
+    },
+    "k2_temporal": {
+      "flexible_shift_share": 0.2,
+      "green_access_multiplier": 2.0,
+      "we_percentile": 50,
+      "it_demand_anchor_we_percentile": 50,
+      "access_share": 0.040654074274578865
+    }
+  },
+  "cases": {
+    "local_static__S0_w0.00": {
+      "scenario": "S0",
+      "omega": 0.0,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_static__S0_w0.05": {
+      "scenario": "S0",
+      "omega": 0.05,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_static__S0_w0.10": {
+      "scenario": "S0",
+      "omega": 0.1,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_static__S0_w0.15": {
+      "scenario": "S0",
+      "omega": 0.15,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_static__S0_w0.20": {
+      "scenario": "S0",
+      "omega": 0.2,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_static__S0_w0.25": {
+      "scenario": "S0",
+      "omega": 0.25,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_static__S0_w0.30": {
+      "scenario": "S0",
+      "omega": 0.3,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_static__S0_w0.35": {
+      "scenario": "S0",
+      "omega": 0.35,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_static__S0_w0.40": {
+      "scenario": "S0",
+      "omega": 0.4,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_static__S0_w0.45": {
+      "scenario": "S0",
+      "omega": 0.45,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_static__S0_w0.50": {
+      "scenario": "S0",
+      "omega": 0.5,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_static__S0_w0.55": {
+      "scenario": "S0",
+      "omega": 0.55,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_static__S0_w0.60": {
+      "scenario": "S0",
+      "omega": 0.6,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_static__S0_w0.65": {
+      "scenario": "S0",
+      "omega": 0.65,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_static__S0_w0.70": {
+      "scenario": "S0",
+      "omega": 0.7,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_static__S0_w0.75": {
+      "scenario": "S0",
+      "omega": 0.75,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_static__S0_w0.80": {
+      "scenario": "S0",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c01"
+    },
+    "local_temporal__S0_w0.00": {
+      "scenario": "S0",
+      "omega": 0.0,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "local_temporal__S0_w0.05": {
+      "scenario": "S0",
+      "omega": 0.05,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "local_temporal__S0_w0.10": {
+      "scenario": "S0",
+      "omega": 0.1,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "local_temporal__S0_w0.15": {
+      "scenario": "S0",
+      "omega": 0.15,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "local_temporal__S0_w0.20": {
+      "scenario": "S0",
+      "omega": 0.2,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "local_temporal__S0_w0.25": {
+      "scenario": "S0",
+      "omega": 0.25,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "local_temporal__S0_w0.30": {
+      "scenario": "S0",
+      "omega": 0.3,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "local_temporal__S0_w0.35": {
+      "scenario": "S0",
+      "omega": 0.35,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "local_temporal__S0_w0.40": {
+      "scenario": "S0",
+      "omega": 0.4,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "local_temporal__S0_w0.45": {
+      "scenario": "S0",
+      "omega": 0.45,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "local_temporal__S0_w0.50": {
+      "scenario": "S0",
+      "omega": 0.5,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "local_temporal__S0_w0.55": {
+      "scenario": "S0",
+      "omega": 0.55,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "local_temporal__S0_w0.60": {
+      "scenario": "S0",
+      "omega": 0.6,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "local_temporal__S0_w0.65": {
+      "scenario": "S0",
+      "omega": 0.65,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "local_temporal__S0_w0.70": {
+      "scenario": "S0",
+      "omega": 0.7,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "local_temporal__S0_w0.75": {
+      "scenario": "S0",
+      "omega": 0.75,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "local_temporal__S0_w0.80": {
+      "scenario": "S0",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "c02"
+    },
+    "spatial_static__S1_w0.00": {
+      "scenario": "S1",
+      "omega": 0.0,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_static__S1_w0.05": {
+      "scenario": "S1",
+      "omega": 0.05,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_static__S1_w0.10": {
+      "scenario": "S1",
+      "omega": 0.1,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_static__S1_w0.15": {
+      "scenario": "S1",
+      "omega": 0.15,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_static__S1_w0.20": {
+      "scenario": "S1",
+      "omega": 0.2,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_static__S1_w0.25": {
+      "scenario": "S1",
+      "omega": 0.25,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_static__S1_w0.30": {
+      "scenario": "S1",
+      "omega": 0.3,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_static__S1_w0.35": {
+      "scenario": "S1",
+      "omega": 0.35,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_static__S1_w0.40": {
+      "scenario": "S1",
+      "omega": 0.4,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_static__S1_w0.45": {
+      "scenario": "S1",
+      "omega": 0.45,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_static__S1_w0.50": {
+      "scenario": "S1",
+      "omega": 0.5,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_static__S1_w0.55": {
+      "scenario": "S1",
+      "omega": 0.55,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_static__S1_w0.60": {
+      "scenario": "S1",
+      "omega": 0.6,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_static__S1_w0.65": {
+      "scenario": "S1",
+      "omega": 0.65,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_static__S1_w0.70": {
+      "scenario": "S1",
+      "omega": 0.7,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_static__S1_w0.75": {
+      "scenario": "S1",
+      "omega": 0.75,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_static__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c01"
+    },
+    "spatial_temporal__S1_w0.00": {
+      "scenario": "S1",
+      "omega": 0.0,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "spatial_temporal__S1_w0.05": {
+      "scenario": "S1",
+      "omega": 0.05,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "spatial_temporal__S1_w0.10": {
+      "scenario": "S1",
+      "omega": 0.1,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "spatial_temporal__S1_w0.15": {
+      "scenario": "S1",
+      "omega": 0.15,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "spatial_temporal__S1_w0.20": {
+      "scenario": "S1",
+      "omega": 0.2,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "spatial_temporal__S1_w0.25": {
+      "scenario": "S1",
+      "omega": 0.25,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "spatial_temporal__S1_w0.30": {
+      "scenario": "S1",
+      "omega": 0.3,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "spatial_temporal__S1_w0.35": {
+      "scenario": "S1",
+      "omega": 0.35,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "spatial_temporal__S1_w0.40": {
+      "scenario": "S1",
+      "omega": 0.4,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "spatial_temporal__S1_w0.45": {
+      "scenario": "S1",
+      "omega": 0.45,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "spatial_temporal__S1_w0.50": {
+      "scenario": "S1",
+      "omega": 0.5,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "spatial_temporal__S1_w0.55": {
+      "scenario": "S1",
+      "omega": 0.55,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "spatial_temporal__S1_w0.60": {
+      "scenario": "S1",
+      "omega": 0.6,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "spatial_temporal__S1_w0.65": {
+      "scenario": "S1",
+      "omega": 0.65,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "spatial_temporal__S1_w0.70": {
+      "scenario": "S1",
+      "omega": 0.7,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "spatial_temporal__S1_w0.75": {
+      "scenario": "S1",
+      "omega": 0.75,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "spatial_temporal__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "storage_sens_150__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 150.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "storage_sens_250__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "storage_sens_350__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 350.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "storage_sens_500__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 500.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "flex_sens_10__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c03"
+    },
+    "flex_sens_20__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "flex_sens_30__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c04"
+    },
+    "flex_sens_40__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c05"
+    },
+    "sharecap_sens_20__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0,
+        "mu_share_cap": 0.2
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "sharecap_sens_25__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0,
+        "mu_share_cap": 0.25
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "sharecap_sens_30__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0,
+        "mu_share_cap": 0.3
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "sharecap_sens_35__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0,
+        "mu_share_cap": 0.35
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "waterstress_social_moderate__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0,
+        "province_share_cap_profile_name": "social_moderate",
+        "water_pressure_basis": "social"
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02",
+      "waterstress_mode": "moderate"
+    },
+    "waterstress_social_strict__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0,
+        "province_share_cap_profile_name": "social_strict",
+        "water_pressure_basis": "social"
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02",
+      "waterstress_mode": "strict"
+    },
+    "storagecap_sens_0254__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0254,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "storagecap_sens_0508__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "storagecap_sens_1016__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.1016,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "routecost_sens_005__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.005,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "routecost_sens_010__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "routecost_sens_050__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.05,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "greenprice_sens_70__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.7,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "greenprice_sens_80__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "greenprice_sens_90__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.9,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "greenaccess_sens_3__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c02"
+    },
+    "greenaccess_sens_4__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c06"
+    },
+    "greenaccess_sens_5__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c07"
+    },
+    "puewe_sens_30__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c08"
+    },
+    "puewe_sens_10__S1_w0.80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "c09"
+    },
+    "kappa1_local_static__S0_w0.24": {
+      "scenario": "S0",
+      "omega": 0.24,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "k1_static"
+    },
+    "kappa1_spatiotemporal__S1_w0.24": {
+      "scenario": "S1",
+      "omega": 0.24,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "k1_temporal"
+    },
+    "kappa2_local_static__S0_w0.24": {
+      "scenario": "S0",
+      "omega": 0.24,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ],
+      "input": "k2_static"
+    },
+    "kappa2_spatiotemporal__S1_w0.24": {
+      "scenario": "S1",
+      "omega": 0.24,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ],
+      "input": "k2_temporal"
+    }
+  }
+}
