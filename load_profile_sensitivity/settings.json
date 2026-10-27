@@ -1,0 +1,66 @@
+{
+  "version": "2026.10.27-v1",
+  "capacity_reference_peak_mw": 22589.826318501353,
+  "access_share": 0.060981111411868294,
+  "shared_sha256": {
+    "model.py": "868657a12b26e1738cbe55f423fdd8b0866d8209b9c6fe967ff0d12aa8a4a5f5",
+    "data/timeseries.npz": "10081fb27698339d19c96549816cea74a9c22acb51d4d9ba9677bbaea88e24ee",
+    "data/cases.json": "61c0be2acc918049ab1cfbe87ae27845713e0ee52d593a8775998e6f447c696d"
+  },
+  "results_sha256": "2aa3399b4159b291da9867ce38b11fd909fae348690d555a6603dcf4e88319cc",
+  "regions": {
+    "northwest": [
+      "Shaanxi",
+      "Gansu",
+      "Qinghai",
+      "Ningxia",
+      "Xinjiang"
+    ],
+    "southwest": [
+      "Chongqing",
+      "Sichuan",
+      "Guizhou",
+      "Yunnan",
+      "Tibet"
+    ]
+  },
+  "cases": {
+    "LT45": {
+      "scenario": "S0",
+      "omega": 0.45,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        300,
+        900,
+        1800
+      ]
+    },
+    "ST80": {
+      "scenario": "S1",
+      "omega": 0.8,
+      "config_kwargs": {
+        "storage_cost_cny_per_mwh": 250.0,
+        "flexible_share": 0.0,
+        "clean_share_band": 0.0,
+        "alpha_route_cny_per_mwh_km": 0.01,
+        "green_price_discount": 0.8,
+        "storage_power_ratio": 0.0508,
+        "storage_duration_h": 4.0
+      },
+      "time_limit_schedule": [
+        900,
+        1800,
+        3600,
+        7200
+      ]
+    }
+  }
+}
